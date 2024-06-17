@@ -30,7 +30,7 @@ function Header() {
                   activeNav === "#home" ? "nav_link active-link" : "nav_link"
                 }
               >
-                <i className="uil uil-estate nav_icon"></i> Home
+                <i className="uil uil-estate bx bx-home-alt"></i> Home
               </a>
             </li>
 
@@ -42,7 +42,7 @@ function Header() {
                   activeNav === "#about" ? "nav_link active-link" : "nav_link"
                 }
               >
-                <i className="uil uil-user nav_icon"></i> About
+                <i className="uil uil-user bx bx-user"></i> About
               </a>
             </li>
 
@@ -54,7 +54,7 @@ function Header() {
                   activeNav === "#skills" ? "nav_link active-link" : "nav_link"
                 }
               >
-                <i className="uil uil-file-alt nav_icon"></i> Skills
+                <i className="uil uil-file-alt bx bx-file"></i> Skills
               </a>
             </li>
 
@@ -68,7 +68,8 @@ function Header() {
                     : "nav_link"
                 }
               >
-                <i className="uil uil-briefcase-alt nav_icon"></i> Qualification
+                <i className="uil uil-briefcase-alt bx bx-briefcase"></i>{" "}
+                Qualification
               </a>
             </li>
 
@@ -80,7 +81,7 @@ function Header() {
                   activeNav === "#project" ? "nav_link active-link" : "nav_link"
                 }
               >
-                <i className="uil uil-scenery nav_icon"></i> Projects
+                <i className="uil uil-scenery bx bx-image"></i> Projects
               </a>
             </li>
 
@@ -92,16 +93,26 @@ function Header() {
                   activeNav === "#contact" ? "nav_link active-link" : "nav_link"
                 }
               >
-                <i className="uil uil-message nav_icon"></i> Contact
+                <i className="uil uil-message bx bx-phone"></i> Contact
               </a>
             </li>
           </ul>
-
-          <i className="uil-times nav_close" onClick={() => showMenu(!Toggle)}></i>
+          <div
+            style={{
+              marginLeft: "97%",
+              marginBottom: "-3.4rem",
+              fontSize: "1.5rem",
+            }}
+          >
+            <i
+              className="uil-times bx bx-x"
+              onClick={() => showMenu(!Toggle)}
+            ></i>
+          </div>
         </div>
 
         <div className="nav_toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="uil uil-apps"></i>
+          <i className="uil bx bx-grid-alt"></i>
         </div>
       </nav>
     </header>

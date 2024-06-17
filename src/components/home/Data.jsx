@@ -76,16 +76,21 @@ const Data = () => {
             color: "black",
             fontSize: "1.5rem",
           }}
-          startDelay={1000}
+          startDelay={3000}
           cursorColor="white"
           multiText={[
-            "Web_Developer",
-            "Web_Designer",
-            "Javascript_Developer",
-            "MERN Stack Developer",
+            "FullStack_Developer",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "ReactJs",
+            "Node",
+            "Express",
+            "MongoDB",
+            "ReactNative",
           ]}
-          multiTextDelay={1000}
-          typeSpeed={30}
+          multiTextDelay={3000}
+          typeSpeed={60}
           multiTextLoop
         />
       </div>

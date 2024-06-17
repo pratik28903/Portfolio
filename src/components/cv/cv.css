@@ -1,35 +1,34 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*===== VARIABLES CSS =====*/
 
 :root {
   --header-height: 3rem;
 
-
   /*========== Colors ==========*/
-  --title-color: #0B0A0A;
-  --text-color: #403A3A;
+  --title-color: #0b0a0a;
+  --text-color: #403a3a;
   --text-color-light: #707070;
-  --container-color: #FAFAFA;
-  --container-color-alt: #F0EFEF;
-  --body-color: #FCFCFC;
+  --container-color: #fafafa;
+  --container-color-alt: #f0efef;
+  --body-color: #fcfcfc;
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .875rem;
-  --smaller-font-size: .813rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
 
   /*========== Margenes ==========*/
-  --mb-1: .5rem;
+  --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
 
@@ -50,11 +49,11 @@ html {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --title-color: #F2F2F2;
-  --text-color: #BFBFBF;
+  --title-color: #f2f2f2;
+  --text-color: #bfbfbf;
   --container-color: #212121;
   --container-color-alt: #181616;
-  --body-color: #2B2B2B;
+  --body-color: #2b2b2b;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -74,12 +73,12 @@ body.dark-theme {
 
 /*========== Font size variables to scale cv ==========*/
 body.scale-cv {
-  --h1-font-size: .938rem;
-  --h2-font-size: .938rem;
-  --h3-font-size: .875rem;
-  --normal-font-size: .813rem;
-  --small-font-size: .75rem;
-  --smaller-font-size: .688rem;
+  --h1-font-size: 0.938rem;
+  --h2-font-size: 0.938rem;
+  --h3-font-size: 0.875rem;
+  --normal-font-size: 0.813rem;
+  --small-font-size: 0.75rem;
+  --smaller-font-size: 0.688rem;
 }
 
 /*========== Generate PDF button ==========*/
@@ -108,11 +107,11 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-  padding: 1.5rem 0 .80rem;
+  padding: 1.5rem 0 0.8rem;
 }
 
 .scale-cv .section-title {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .scale-cv .resume__left,
@@ -130,12 +129,12 @@ body.scale-cv {
 }
 
 .scale-cv .home__data {
-  gap: .25rem;
+  gap: 0.25rem;
 }
 
 .scale-cv .home__address,
 .scale-cv .social__container {
-  gap: .75rem;
+  gap: 0.75rem;
 }
 
 .scale-cv .home__icon,
@@ -146,14 +145,14 @@ body.scale-cv {
 
 .scale-cv .education__container,
 .scale-cv .experience__container {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .scale-cv .education__rounder,
 .scale-cv .experience__rounder {
   width: 11px;
   height: 11px;
-  margin-top: .22rem;
+  margin-top: 0.22rem;
 }
 
 .scale-cv .education__line,
@@ -165,7 +164,7 @@ body.scale-cv {
 
 .scale-cv .education__data,
 .scale-cv .experience__data {
-  gap: .25rem;
+  gap: 0.25rem;
 }
 
 .scale-cv .skills__name {
@@ -223,7 +222,7 @@ img {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
-  letter-spacing: .35rem;
+  letter-spacing: 0.35rem;
   text-align: center;
   margin-bottom: var(--mb-3);
 }
@@ -249,7 +248,7 @@ img {
   z-index: var(--z-fixed);
   background-color: var(--body-color);
   /* box-shadow:0 -1px 4px rgba(0,0,0,.1); */
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /*========== NAV ==========*/
@@ -260,7 +259,7 @@ img {
   align-items: center;
 }
 
-@media screen and (max-width:968px) {
+@media screen and (max-width: 968px) {
   .nav__menu {
     position: fixed;
     bottom: -100%;
@@ -268,10 +267,10 @@ img {
     width: 100%;
     padding: 2rem 1.5rem;
     background-color: var(--body-color);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
-    transition: .3s;
+    transition: 0.3s;
   }
 }
 
@@ -333,7 +332,7 @@ img {
 }
 
 .home__data {
-  gap: .5rem;
+  gap: 0.5rem;
   text-align: center;
 }
 
@@ -367,7 +366,7 @@ img {
 
 .home__icon {
   font-size: 1.2rem;
-  margin-right: .25rem;
+  margin-right: 0.25rem;
 }
 
 .home__button-movil {
@@ -375,7 +374,7 @@ img {
   border: 2px solid var(--text-color);
   color: var(--title-color);
   padding: 1rem 2rem;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   transition: var(--font-medium);
   margin-top: var(--mb-3);
 }
@@ -403,14 +402,13 @@ img {
 }
 
 .socila__icon {
-  margin-right: .25
+  margin-right: 0.25;
 }
 
 /*========== PROFILE ==========*/
 .profile__description {
   text-align: center;
 }
-
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
 .education__content,
@@ -431,7 +429,7 @@ img {
   height: 16px;
   background-color: var(--text-color-light);
   border-radius: 50%;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 .education__line,
@@ -445,7 +443,7 @@ img {
 
 .education__data,
 .experience__data {
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .education__title,
@@ -487,7 +485,7 @@ img {
   height: 6px;
   background-color: var(--text-color);
   border-radius: 50%;
-  margin-right: .75rem;
+  margin-right: 0.75rem;
 }
 
 /*========== CERTIFICATES ==========*/
@@ -498,7 +496,7 @@ img {
 
 /*========== REFERENCES ==========*/
 .references__content {
-  gap: .25rem;
+  gap: 0.25rem;
 }
 
 .references__subtitle {
@@ -530,7 +528,7 @@ img {
 .interests__icon {
   font-size: 1.5rem;
   color: var(--text-color-light);
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Scroll top */
@@ -541,11 +539,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .3rem;
+  padding: 0.3rem;
   background-color: var(--container-color-alt);
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   z-index: var(--z-tooltip);
-  transition: .4s;
+  transition: 0.4s;
   /* visibility: hidden; */
 }
 
@@ -561,7 +559,7 @@ img {
 
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .nav__list {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem, 5rem;
@@ -570,11 +568,10 @@ img {
   .l-header {
     display: none;
   }
-
 }
 
 /* Classes modified for large screen size */
-@media screen and (min-width:968px) {
+@media screen and (min-width: 968px) {
   body {
     margin: 3rem 0;
   }
@@ -597,7 +594,7 @@ img {
 
   .resume {
     display: grid;
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
     background-color: var(--container-color);
   }
 
