@@ -25,7 +25,7 @@ const Data = () => {
           viewBox="0 0 48 48"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="home_hand"
+          class="home_hand"
         >
           <path
             d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -98,7 +98,7 @@ const Data = () => {
       <button onClick={handleClickOpen} className="button button--flex">
         See My Resume
         <svg
-          className="button__icon"
+          class="button__icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
