@@ -1,0 +1,191 @@
+.home_content {
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.home_social {
+    margin-left: -10%;
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1.5rem;
+}
+
+.home_social-icon {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+.home_social-icon:hover {
+    color: var(--title-color-dark)
+}
+
+.home_title {
+    font-size: 2rem;
+    margin-bottom: var(--mb-0-25);
+}
+
+.home_title_name {
+    font-size: 3rem;
+    margin-bottom: var(--mb-0-25);
+}
+
+.home_hand {
+    width: 38px;
+    height: 38px;
+    margin-left: 0.4rem;
+}
+
+.home_subtitle {
+    position: relative;
+    font-size: var(--h3-font-size);
+    padding-left: 5.4rem;
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-1);
+}
+
+.home_subtitle::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: var(--text-color);
+    left: 0;
+    top: 1rem;
+}
+
+.home_description {
+    max-width: 400px;
+    margin-bottom: var(--mb-3);
+}
+
+.home_img {
+    margin-left: 15%;
+    background: url(../../assets/profile.1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+    order: 1;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+}
+
+:root {
+    --container-color: #FAFAFA;
+}
+
+.icontoolbar {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    background-color: var(--container-color);
+    box-shadow: 0 0 8px rgba(13, 12, 12.15)
+}
+
+@keyframes profile_animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .home_content {
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+
+    .home_hand {
+        width: 26px;
+        height: 26px;
+    }
+
+    .home_title {
+        font-size: xx-large;
+    }
+
+    .home_title_name {
+        font-size: xx-large;
+    }
+
+    .home_subtitle {
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+
+    .home_subtitle::before {
+        width: 42px;
+        top: 0.8rem;
+    }
+
+    .home_description {
+        max-width: initial;
+        margin-bottom: var(--mb-2-5);
+    }
+
+    .home_img {
+        width: 250px;
+        height: 250px;
+        box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .home_content {
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+
+    .home_data {
+        grid-column: 1/3;
+    }
+
+    .home_img {
+        margin-top: -400%;
+        margin-left: 50%;
+        box-shadow: insert 0 0 0 6px rgb(255, 255, 255/ 30%);
+        width: 190px;
+        height: 190px;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .home_img {
+        margin-bottom: 50%;
+        width: 180px;
+        height: 180px;
+    }
+
+    .home_hand {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home_img {
+        margin-bottom: 20rem;
+        width: 120px;
+        height: 120px;
+    }
+
+    .home_hand {
+        width: 20px;
+        height: 20px;
+    }
+}
