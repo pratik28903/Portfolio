@@ -126,7 +126,7 @@ const Cv = () => {
             {/* <!-- Theme change button --> */}
             {/* <i className='bx bx-moon change-theme' title="Theme" id="theme-button" ></i> */}
             {/* <!-- Button to generate and download the pdf. Available for desktop. --> */}
-            <a href={resume}>
+            <a href={resume} target="_blank">
               {" "}
               <i
                 className="bx bx-download generate-pdf"
@@ -173,12 +173,12 @@ const Cv = () => {
           <section className="profile section" id="profile">
             <h2 className="section-title">Profile</h2>
             <p className="profile__description">
-              An experienced and motivated MERN Stack Developer with 2+ years of
-              experience in developing web applications that are both
-              user-friendly and secure. Skilled in developing efficient and
-              effective applications using MongoDB, Express, React.js, Node.js
-              and APIS .Ability to work in an Agile environment.Designed and
-              developed RESTful web services. Developed and maintained.
+              An experienced and motivated Full Stack Developer with over 3
+              years of expertise in developing secure, user-friendly web
+              applications. Proficient in the MERN stack (MongoDB, Express.js,
+              React.js, Node.js) and skilled in creating efficient, effective
+              applications. Demonstrated ability to work in Agile environments,
+              design and develop RESTful web services, and maintain websites.
             </p>
           </section>
           {/* <!--========== EDUCATION ==========--> */}
@@ -294,9 +294,11 @@ const Cv = () => {
                     From 2022 | Aligned Automation
                   </span>
                   <p className="experience__description">
-                    Working in this company dedicating the best responsibility
-                    is the area that corresponds, to delivering the best results
-                    for the company and improving productivity.
+                    Developed a dashboard for clients to track sales and
+                    purchases across different regions through various charts,
+                    graphs, and maps. Managed JIRA tracking, maintained
+                    documentation, and collaborated with team members to share
+                    knowledge and explore new technologies.
                   </p>
                 </div>
               </div>
@@ -311,9 +313,9 @@ const Cv = () => {
                     From 2021 to 2022 | Aligned Automation
                   </span>
                   <p className="experience__description">
-                    Working in this company dedicating the best responsibility
-                    is the area that corresponds, to delivering the best results
-                    for the company and improving productivity.
+                    Gained hands-on experience in frontend and backend
+                    development, databases, AWS, and Azure. Learned and applied
+                    JavaScript, React.js, Node.js, Express.js, and MongoDB.
                   </p>
                 </div>
               </div>
@@ -328,9 +330,8 @@ const Cv = () => {
                     From 2021 to 2021 | Sands Techsolution
                   </span>
                   <p className="experience__description">
-                    Working in this company dedicating the best responsibility
-                    is the area that corresponds, to delivering the best results
-                    for the company and improving productivity.
+                    Developed new web technologies and improved website
+                    functionality.
                   </p>
                 </div>
               </div>
@@ -343,8 +344,9 @@ const Cv = () => {
               <div className="certificate__content">
                 <h3 className="certificate__title">ReactJs (2022)</h3>
                 <p className="certificate__description">
-                  In this complete certification course ,I have learn all the
-                  html5 tages attrebute and many more things.
+                  Completed a comprehensive course on creating dynamic and
+                  interactive components, state management, and component
+                  lifecycle methods.
                 </p>
                 <a href={Reactjscertificate} rel="noopener">
                   See my certificate.
@@ -354,9 +356,8 @@ const Cv = () => {
               <div className="certificate__content">
                 <h3 className="certificate__title">VueJs (2022)</h3>
                 <p className="certificate__description">
-                  In this complete certification course ,I have learn all the
-                  Css3 tages attrebute animation and many more new things to
-                  design the website.
+                  Gained in-depth knowledge of building scalable single-page
+                  applications with Vue CLI, Vue Router, and Vuex management.
                 </p>
                 <a href={Vuejscertificate} rel="noopener">
                   See my certificate.
@@ -366,8 +367,8 @@ const Cv = () => {
               <div className="certificate__content">
                 <h3 className="certificate__title">TypeScript (2021)</h3>
                 <p className="certificate__description">
-                  In this complete certification course ,I have learn JavaScript
-                  wich new things.
+                  Learned fundamentals including type annotations, interfaces,
+                  and advanced types to enhance JavaScript code quality.
                 </p>
                 <a href={Typescriptcretifate} rel="noopener">
                   See my certificate.
@@ -377,8 +378,8 @@ const Cv = () => {
               <div className="certificate__content">
                 <h3 className="certificate__title">JavaScript (2021)</h3>
                 <p className="certificate__description">
-                  In this complete certification course ,I have learn JavaScript
-                  wich new things.
+                  Covered ES6+ features, asynchronous programming with promises
+                  and async/await, and functional programming concepts.
                 </p>
                 <a href={javascriptcertificate} rel="noopener">
                   See my certificate.

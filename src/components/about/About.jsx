@@ -24,7 +24,7 @@ const About = () => {
             develop RESTful web services, and maintain websites.
           </p>
 
-          <a downlode="" href={resume} className="button button--flex">
+          <a downlode="" href={resume} className="button button--flex" target="_blank">
             Downlode CV
             <svg
               className="button__icon"
