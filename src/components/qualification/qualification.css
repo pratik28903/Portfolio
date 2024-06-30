@@ -65,6 +65,12 @@
   margin-bottom: var(--mb-1);
 }
 
+.qualification_subtitle1 {
+  display: inline-block;
+  font-size: 11px;
+  margin-bottom: var(--mb-1);
+}
+
 .qualification_calender {
   font-size: var(--small-font-size);
 }

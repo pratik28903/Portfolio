@@ -114,6 +114,13 @@ const Qualification = () => {
                 <span className="qualification_subtitle">
                   Aligned Automation
                 </span>
+                <span className="qualification_subtitle1">
+                  Developed a dashboard for clients to track sales and purchases
+                  across different regions through various charts, graphs, and
+                  maps. Managed JIRA tracking, maintained documentation, and
+                  collaborated with team members to share knowledge and explore
+                  new technologies.
+                </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
@@ -137,6 +144,11 @@ const Qualification = () => {
                 <span className="qualification_subtitle">
                   Aligned Automation
                 </span>
+                <span className="qualification_subtitle1">
+                  Gained hands-on experience in frontend and backend
+                  development, databases, AWS, and Azure. Learned and applied
+                  JavaScript, React.js, Node.js, Express.js, and MongoDB.
+                </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
@@ -148,6 +160,9 @@ const Qualification = () => {
                 <h3 className="qualification_title">Wordpress Developer</h3>
                 <span className="qualification_subtitle">
                   Sands Techsolutions
+                </span>
+                <span className="qualification_subtitle1">
+                Developed new web technologies and improved website functionality.
                 </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2021

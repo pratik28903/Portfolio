@@ -1,6 +1,6 @@
 import "./cv.css";
 import React, { useEffect, useState } from "react";
-import resume from "../../assets/Pdf/Pratik_Ostwal.docx";
+import resume from "../../assets/Pdf/Pratik_Ostwal_Resume.pdf";
 import csscertificate from "../../assets/Pdf/Css3.pdf";
 import htmlcertificate from "../../assets/Pdf/Html5.pdf";
 import Vuejscertificate from "../../assets/Pdf/VueJs.pdf";
