@@ -115,11 +115,15 @@ const Qualification = () => {
                   Aligned Automation
                 </span>
                 <span className="qualification_subtitle1">
-                  Developed a dashboard for clients to track sales and purchases
-                  across different regions through various charts, graphs, and
-                  maps. Managed JIRA tracking, maintained documentation, and
-                  collaborated with team members to share knowledge and explore
-                  new technologies.
+                  Built a responsive business dashboard to track sales and
+                  purchases across different regions through various charts,
+                  graphs, and maps using React.js, implementing dynamic data
+                  with HighCharts. Integrated RESTful APIs for real-time data
+                  fetching, enhancing data accuracy and usability across
+                  regions. Actively participated daily stand-ups, where I
+                  provided progress updates and collaborated with
+                  cross-functional teams to align on project goals, Managed JIRA
+                  tracking, maintained documentation.
                 </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
@@ -162,7 +166,8 @@ const Qualification = () => {
                   Sands Techsolutions
                 </span>
                 <span className="qualification_subtitle1">
-                Developed new web technologies and improved website functionality.
+                  Developed new web technologies and improved website
+                  functionality.
                 </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2021
