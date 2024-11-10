@@ -79,7 +79,7 @@ const Data = () => {
           startDelay={3000}
           cursorColor="white"
           multiText={[
-            "FullStack_Developer",
+            "MERN_Stack_Developer",
             "HTML",
             "CSS",
             "Javascript",
@@ -87,6 +87,7 @@ const Data = () => {
             "Node",
             "Express",
             "MongoDB",
+            "NextJs",
             "ReactNative",
           ]}
           multiTextDelay={3000}
