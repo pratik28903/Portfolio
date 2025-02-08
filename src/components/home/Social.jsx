@@ -8,11 +8,11 @@ const Social = () => {
         className="home_social-icon"
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.instagram.com/pratikostwal.25/", "_blank");
+          window.open("https://github.com/pratik28903", "_blank");
         }}
         rel="noopener"
       >
-        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-github"></i>
       </a>
 
       <a
@@ -35,11 +35,11 @@ const Social = () => {
         className="home_social-icon"
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://github.com/pratik28903", "_blank");
+          window.open("https://www.instagram.com/pratikostwal.25/", "_blank");
         }}
         rel="noopener"
       >
-        <i class="bx bxl-github"></i>
+        <i class="bx bxl-instagram"></i>
       </a>
     </div>
   );

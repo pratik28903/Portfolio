@@ -2,7 +2,7 @@ import "./about.css";
 import React from "react";
 import Info from "./Info";
 import AboutImg from "../../assets/about-us.png";
-import resume from "../../assets/Pdf/Pratik_Ostwal_Resume.pdf";
+import resume from "../../assets/Word/Updated_Pratik_Ostwal_Resume.docx";
 
 const About = () => {
   return (

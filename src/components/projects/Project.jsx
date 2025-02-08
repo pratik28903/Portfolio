@@ -7,6 +7,7 @@ import Project4 from "../../assets/Project4.png";
 import Project5 from "../../assets/Project5.png";
 import Project6 from "../../assets/Project6.png";
 import Project7 from "../../assets/Project7.png";
+import Project8 from "../../assets/Project8.png";
 
 const Project = () => {
   return (
@@ -14,6 +15,13 @@ const Project = () => {
       <h2 className="section_title">Projects</h2>
 
       <div className="work_container bd-grid">
+
+      {/* <div className="work_img">
+          <h5>Business Dashboard.</h5>
+            <img src={Project8} alt=""   style={{ width: '350px', height: '160px' }}
+            />
+        </div> */}
+
         <div className="work_img">
           <h5>Portfolio Website.</h5>
           <a href="https://github.com/pratik28903/mywebsite" rel="noopener">
