@@ -24,43 +24,71 @@ const Project = () => {
 
         <div className="work_img">
           <h5>Portfolio Website.</h5>
-          <a href="https://github.com/pratik28903/mywebsite" rel="noopener">
+          <a
+            href="https://github.com/pratik28903/mywebsite"
+            rel="noopener"
+            target="_blank"
+          >
             <img src={Project7} alt="" />
           </a>
         </div>
         <div className="work_img">
           <h5>Landing Page.</h5>
-          <a href="https://github.com/pratik28903/Landing-Page" rel="noopener">
+          <a
+            href="https://pratik28903.github.io/Landing-Page/#"
+            rel="noopener"
+            target="_blank"
+          >
             <img src={Project1} alt="" />
           </a>
         </div>
         <div className="work_img">
           <h5>Text Analyzer.</h5>
-          <a href="https://github.com/pratik28903/Text-Analyzer" rel="noopener">
+          <a
+            href="https://pratik28903.github.io/Text-Analyzer/"
+            rel="noopener"
+            target="_blank"
+          >
             <img src={Project2} alt="" />
           </a>
         </div>
         <div className="work_img">
           <h5>Snake Game.</h5>
-          <a href="https://github.com/pratik28903/Snake-Game." rel="noopener">
+          <a
+            href="https://pratik28903.github.io/Snake-Game./"
+            rel="noopener"
+            target="_blank"
+          >
             <img src={Project3} alt="" />
           </a>
         </div>
         <div className="work_img">
           <h5>Music Player.</h5>
-          <a href="https://github.com/pratik28903/Music-Player" rel="noopener">
+          <a
+            href="https://pratik28903.github.io/Music-Player/"
+            rel="noopener"
+            target="_blank"
+          >
             <img src={Project4} alt="" />
           </a>
         </div>
         <div className="work_img">
           <h5>Digital Clock.</h5>
-          <a href="https://github.com/pratik28903/Digital-Clock" rel="noopener">
+          <a
+            href="https://pratik28903.github.io/Digital-Clock/"
+            rel="noopener"
+            target="_blank"
+          >
             <img src={Project5} alt="" />
           </a>
         </div>
         <div className="work_img">
           <h5>Calculater.</h5>
-          <a href="https://github.com/pratik28903/Calculater" rel="noopener">
+          <a
+            href="https://pratik28903.github.io/Calculater/"
+            rel="noopener"
+            target="_blank"
+          >
             <img src={Project6} alt="" />
           </a>
         </div>

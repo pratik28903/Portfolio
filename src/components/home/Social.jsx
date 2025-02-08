@@ -14,7 +14,6 @@ const Social = () => {
       >
         <i class="bx bxl-github"></i>
       </a>
-
       <a
         href="#"
         className="home_social-icon"
@@ -29,7 +28,6 @@ const Social = () => {
       >
         <i class="bx bxl-linkedin-square"></i>
       </a>
-
       <a
         href="#"
         className="home_social-icon"
