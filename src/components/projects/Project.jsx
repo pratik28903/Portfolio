@@ -8,9 +8,9 @@ import Project5 from "../../assets/Project5.png";
 import Project6 from "../../assets/Project6.png";
 import Project7 from "../../assets/Project7.png";
 import Project8 from "../../assets/Project8.png";
-import Ticketing1 from "../../assets/ManageTicket.png";
-import Ticketing2 from "../../assets/Manageuser.png";
-import Ticketing3 from "../../assets/Dashboard.png";
+import ManageTicket from "../../assets/ManageTicket.png";
+import Manageuser from "../../assets/Manageuser.png";
+import Dashboard from "../../assets/Dashboard.png";
 
 const Project = () => {
   return (
