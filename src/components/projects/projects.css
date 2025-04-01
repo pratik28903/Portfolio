@@ -34,6 +34,15 @@
     transform: scale(1.1);
 }
 
+.work_img h5 {
+  font-weight: 600;
+  color: #ff6f00;
+}
+.work_img p {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 992px) {
     .work_container {
