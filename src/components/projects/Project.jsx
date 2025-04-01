@@ -8,6 +8,9 @@ import Project5 from "../../assets/Project5.png";
 import Project6 from "../../assets/Project6.png";
 import Project7 from "../../assets/Project7.png";
 import Project8 from "../../assets/Project8.png";
+import Ticketing1 from "../../assets/TicketingDashboard.png";
+import Ticketing2 from "../../assets/TicketingReports.png";
+import Ticketing3 from "../../assets/TicketingUsers.png";
 
 const Project = () => {
   return (
@@ -94,20 +97,28 @@ const Project = () => {
         </div>
 
         <div className="work_img">
-  <h5>Inventory Management System (Freelance)</h5>
-          <h5 title="React.js | Node.js | MongoDB | JWT Auth | Admin Panel | PDF Generation">
-  Inventory Management System (Freelance)
-</h5>
+  <h5>Ticketing System - Freelance Project</h5>
+  <p style={{ fontSize: "13px", color: "#555", margin: "6px 0" }}>
+    Multi-role ticket management system built for Jupiter Teleinfra Services.
+  </p>
+
+  <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+    <img src={Ticketing1} alt="Dashboard" style={{ width: '100px', borderRadius: '8px' }} />
+    <img src={Ticketing2} alt="Reports" style={{ width: '100px', borderRadius: '8px' }} />
+    <img src={Ticketing3} alt="User Mgmt" style={{ width: '100px', borderRadius: '8px' }} />
+  </div>
 
   <a
-    href="https://github.com/pratik28903/Inventory-Management-System" // or demo link
+    href="https://github.com/pratik28903/ticketing-system" // change to live link if hosted
     rel="noopener"
     target="_blank"
+    style={{ display: "inline-block", marginTop: "10px", color: "#007bff", fontWeight: "bold" }}
   >
-    <img src={Project9} alt="Inventory Management System Screenshot" style={{ width: '350px', height: '160px' }} />
+    View Code on GitHub
   </a>
 </div>
 
+        
       </div>
     </section>
   );
