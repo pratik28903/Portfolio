@@ -92,6 +92,22 @@ const Project = () => {
             <img src={Project6} alt="" />
           </a>
         </div>
+
+        <div className="work_img">
+  <h5>Inventory Management System (Freelance)</h5>
+          <h5 title="React.js | Node.js | MongoDB | JWT Auth | Admin Panel | PDF Generation">
+  Inventory Management System (Freelance)
+</h5>
+
+  <a
+    href="https://github.com/pratik28903/Inventory-Management-System" // or demo link
+    rel="noopener"
+    target="_blank"
+  >
+    <img src={Project9} alt="Inventory Management System Screenshot" style={{ width: '350px', height: '160px' }} />
+  </a>
+</div>
+
       </div>
     </section>
   );
