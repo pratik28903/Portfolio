@@ -103,14 +103,14 @@ const Project = () => {
   </p>
 
 <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-  <a href={ManageTicket} target="_blank" rel="noopener noreferrer">
-    <img src={ManageTicket} alt="Manage Ticket" style={{ width: '100px', borderRadius: '8px' }} />
+    <a href={Dashboard} target="_blank" rel="noopener noreferrer">
+    <img src={Dashboard} alt="Dashboard" style={{ width: '100px', borderRadius: '8px' }} />
   </a>
-  <a href={Manageuser} target="_blank" rel="noopener noreferrer">
+    <a href={Manageuser} target="_blank" rel="noopener noreferrer">
     <img src={Manageuser} alt="Manage User" style={{ width: '100px', borderRadius: '8px' }} />
   </a>
-  <a href={Dashboard} target="_blank" rel="noopener noreferrer">
-    <img src={Dashboard} alt="Dashboard" style={{ width: '100px', borderRadius: '8px' }} />
+  <a href={ManageTicket} target="_blank" rel="noopener noreferrer">
+    <img src={ManageTicket} alt="Manage Ticket" style={{ width: '100px', borderRadius: '8px' }} />
   </a>
 </div>
 
