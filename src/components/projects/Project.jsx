@@ -8,9 +8,9 @@ import Project5 from "../../assets/Project5.png";
 import Project6 from "../../assets/Project6.png";
 import Project7 from "../../assets/Project7.png";
 import Project8 from "../../assets/Project8.png";
-import Ticketing1 from "../../assets/TicketingDashboard.png";
-import Ticketing2 from "../../assets/TicketingReports.png";
-import Ticketing3 from "../../assets/TicketingUsers.png";
+import Ticketing1 from "../../assets/ManageTicket.png";
+import Ticketing2 from "../../assets/Manageuser.png";
+import Ticketing3 from "../../assets/Dashboard.png";
 
 const Project = () => {
   return (
@@ -103,9 +103,9 @@ const Project = () => {
   </p>
 
   <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-    <img src={Ticketing1} alt="Dashboard" style={{ width: '100px', borderRadius: '8px' }} />
-    <img src={Ticketing2} alt="Reports" style={{ width: '100px', borderRadius: '8px' }} />
-    <img src={Ticketing3} alt="User Mgmt" style={{ width: '100px', borderRadius: '8px' }} />
+    <img src={ManageTicket} alt="Dashboard" style={{ width: '100px', borderRadius: '8px' }} />
+    <img src={Manageuser} alt="Reports" style={{ width: '100px', borderRadius: '8px' }} />
+    <img src={Dashboard} alt="User Mgmt" style={{ width: '100px', borderRadius: '8px' }} />
   </div>
 
   <a
