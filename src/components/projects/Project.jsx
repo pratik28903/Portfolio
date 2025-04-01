@@ -98,7 +98,7 @@ const Project = () => {
 
         <div className="work_img">
   <h5>Ticketing System - Freelance Project</h5>
-  <p style={{ fontSize: "13px", color: "#555", margin: "6px 0" }}>
+  <p style={{ fontSize: "10px", color: "#555", margin: "3px 0" }}>
     Multi-role ticket management system built for Jupiter Teleinfra Services.
   </p>
 
@@ -108,14 +108,14 @@ const Project = () => {
     <img src={Dashboard} alt="User Mgmt" style={{ width: '100px', borderRadius: '8px' }} />
   </div>
 
-  <a
+{/*   <a
     href="https://github.com/pratik28903/ticketing-system" // change to live link if hosted
     rel="noopener"
     target="_blank"
     style={{ display: "inline-block", marginTop: "10px", color: "#007bff", fontWeight: "bold" }}
   >
     View Code on GitHub
-  </a>
+  </a> */}
 </div>
 
         
